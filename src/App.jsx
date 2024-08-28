@@ -1,17 +1,18 @@
 
+export const App = ()=>{
+  return (
+    <>
+    <h1> Name: </h1>
+    <p>Software Developer</p>
+    <img src="" alt="" />
+    </>
+  )
+}
 
-// export const App = ()=>{
-//   return <h1>hello This is a Abhishek</h1>
-// };
 
 
-// import React from "react"
-// export const App = ()=>{
-//   return React.createElement('h1',null,"hello this is a Abhishek");
-// };
 
+// ? Each jsx expression must have one parent , which means if you try to return multiple elements, React will throw an error
 
-// import {jsx as _jsx} from "react/jsx-runtime"
-// export const App = ()=>{
-//   return _jsx( 'h1',{name:null, children:"hello"});
-// };
+// Every JSX tag needs to be closed. you can use self-closing tags for elements that dont't have children,
+// <img src="url" />
